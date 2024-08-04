@@ -1,0 +1,73 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}.navbar{
+  background-color: black;
+  color: white;
+  padding: 10px;
+ 
+}
+.navbar__list,.navbar__ul,.navbar__title{
+  display: inline;
+}
+.navbar__title{
+  margin-right: 60%;
+}
+.navbar__list{
+  padding: 5px;
+  color: gray;
+}
+.navbar__list:hover{
+  color: white;
+  cursor: pointer;
+}
+.search{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+  
+  
+}
+.search input{
+  width: 50%;
+  padding: 15px;
+  
+}
+.products{
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.coursecard{
+  display:inline-block;
+  border: solid black 2px;
+  width: 25%;
+  padding: 10px;
+}
+.coursecard img{
+  width: 100%;
+  
+}
+.coursecard p:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.about{
+  margin: 10px;
+  padding: 30px;
+
+}
+.about p{
+  margin-top: 20px;
+}
+.contact{
+  background-color: black;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
